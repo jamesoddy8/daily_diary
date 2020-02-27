@@ -38,7 +38,14 @@ _You can even use these same characters to emphasise complete sentences_
 
 Links are simple. Just put the text to be linke in [] brackets, and the link in () parenthesis. 
 
-'''[Links are simple](https://www.google.com/search 
+```[Links are simple](https://www.google.com/search?q=markdown)```
+
+## Blockquotes ##
+
+> When typing an extended quote, just put the "greater than" sign before the paragraph. 
+
+``` > "I have dipped into books of aesthetics, but I had an uncomfortable feeling that I was reading the works of atronomers who had never looked at the stars. They were writing about poetry as if poetry were a task, and not what it really is, a passion, and a joy." ```
+
 
 
 
