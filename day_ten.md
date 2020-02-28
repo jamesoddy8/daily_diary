@@ -33,7 +33,7 @@
 - How to split a class / polymorphism 
 - 
 
-## Ideas for impovement ## 
+## Ideas for impovement ## 
 
 - Need more hours / drinking too much coffee?
 - Goalds more, more specifics 
@@ -41,5 +41,5 @@
 - Tiny steps .. do not jump to conclusions!
 - Asking for help when stuck
 - Validate with a coach or a peer
-
+- COMMIT TO YOUR DIARY 
 
