@@ -44,3 +44,4 @@
 - Validate with a coach or a peer
 - COMMIT TO YOUR DIARY 
 
+
