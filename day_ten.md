@@ -1,10 +1,12 @@
 ```Friday 28th February```
 
-> ## Things to work on that I don't understand ##
+### Things to work on that I don't understand ### 
 
+```
 - Relationship between classes / how to effectively link classes together... 
 - Doubles
 - Mocking
+```
 
 # Retro #
 
