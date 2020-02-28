@@ -1,6 +1,6 @@
 ```Friday 28th February```
 
-### Things to work on that I don't understand ### 
+### Things to work on that I don't understand 
 
 ```
 - Relationship between classes / how to effectively link classes together... 
@@ -34,7 +34,7 @@
 - Reading walkthroughs - when it already works
 - How to split a class / polymorphism 
 
-## Ideas for impovement ## 
+## Ideas for impovement 
 
 - Need more hours / drinking too much coffee?
 - Goalds more, more specifics 
