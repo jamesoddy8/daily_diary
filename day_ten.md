@@ -31,7 +31,6 @@
 - Maintaining energy
 - Reading walkthroughs - when it already works
 - How to split a class / polymorphism 
-- 
 
 ## Ideas for impovement ## 
 
