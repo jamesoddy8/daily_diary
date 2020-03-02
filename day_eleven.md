@@ -10,7 +10,6 @@ If a method is printing strings from an array how do we test for this? E.g. arra
 
 ``` 
 expect { subject.method }.to output("...").to_stdout 
-
 ``` 
 
 Two schools of TDD Chicago & London...
@@ -33,4 +32,8 @@ Sort of an alternative to feature testing...
 
 You don't! 
 
+### Goals ### 
 
+> velocity = ( speed / direction ) 
+
+Prioritise direction over speed 
