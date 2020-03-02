@@ -1,10 +1,10 @@
-### Monday 2nd March ###
+### Monday 2nd March 
 
-### Grandma Test ### 
+### Grandma Test  
 
 If you were to give your code to your grandma, would she be able to undertand it?
 
-### Code Review ### 
+### Code Review  
 
 If a method is printing strings from an array how do we test for this? E.g. array.each(item) puts item[:price] 
 
@@ -25,7 +25,7 @@ London style = use mocks & doubles
 
 Chicago style = use mocks & doubles as little as possible
 
-### When to use instance_doubles?###
+### When to use instance_doubles? ###
 
 Sort of an alternative to feature testing... 
 
