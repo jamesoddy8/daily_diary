@@ -45,3 +45,18 @@ By the end of the week you should be able to:
 - Follow an effective debugging process for web applications :-1:
 - Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS) :-1:
 - Explain the MVC pattern :-1:
+
+Browser | Server
+Request
+HTTP -> 
+TCP/IP 
+
+
+Response <-
+HTML, CSS, JS, IMG
+HTTP STATUS codes, such as 404 not found
+
+Developer tools safari/chrome
+
+
+
