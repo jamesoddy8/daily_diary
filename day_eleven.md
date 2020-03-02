@@ -32,8 +32,16 @@ Sort of an alternative to feature testing...
 
 You don't! 
 
-### Goals ### 
+### Goals For The Week  
 
-> velocity = ( speed / direction ) 
+```
+velocity = ( speed / direction ) 
 
 Prioritise direction over speed 
+```
+By the end of the week you should be able to: 
+
+- Build a simple web app :-1:
+- Follow an effective debugging process for web applications :-1:
+- Explain the basics of how the web works (e.g. request/response, HTTP, HTML, CSS) :-1:
+- Explain the MVC pattern :-1:
