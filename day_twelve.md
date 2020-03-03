@@ -1,23 +1,31 @@
-### Tuesday 3rd March 
+### Tuesday 3rd March ###
 
-## Process Modelling
+## Mocks, Stubs & Expectations in Ruby ###
 
-Sequence diagram 
+- Mocks are objects that have a similar interface as something else
+- Stubs are fake methods and return a specific answer
 
-## Battle Challenge
 
-### The Web  
+
+
+## Process Modelling ##
+
+Sequence diagram
+
+## Battle Challenge ##
+
+### The Web ###
 
 The whole web is built on client-server relationships. There are different kinds of clients and servers but the relationship is roughly the same: the client is dependent on the server for providing and managing information. Anything that can request a resource from a server can be called a client.
 
-Challenge - setup using httpie 
+Challenge - setup using httpie
 ``` brew install httpie ```
 
-### The Hypertext Transfer Protocol (HTTP)
+### The Hypertext Transfer Protocol (HTTP) ###
 
 Usually, clients and servers talk to each other using the HyperText Transfer Protocol. A client makes a request to a server and gets back a response. It is called a "protocol" because it has a defined structure for requests and responses.
 
-#### URLs
+#### URLs ###
 
 At the heart of web communications is the request message, which are sent via Uniform Resource Locators (URLs).
 
@@ -37,10 +45,23 @@ Within HTTP, we call data sent from a client to a server a parameter. Just like 
 
 ### HTTP: Verbs
 
-- **GET**: fetch an existing resource. The URL contains all the necessary information the server needs to locate and return the resource. 
-- **POST**: create a new resource. POST requests usually carry a payload that specifies the data for the new resource. 
-- **PUT**: update an existing resource. The payload may contain the updated data for the resource. 
-- **DELETE**: delete an existing resource. 
+- **GET**: fetch an existing resource. The URL contains all the necessary information the server needs to locate and return the resource.
+- **POST**: create a new resource. POST requests usually carry a payload that specifies the data for the new resource.
+- **PUT**: update an existing resource. The payload may contain the updated data for the resource.
+- **DELETE**: delete an existing resource.
 
 The above four verbs are the most popular, and most tools and frameworks explicity expose these request verbs. ```PUT``` and ```DELETE``` are sometimes considered specialised versions of the ```POST``` verbm and they may be packaged as ```POST``` requests with the payload containing the exact action: *create, update* or *delete.*
 
+### HTTP: Status Codes
+
+With URLs and verbs, the client can initiate requests to the server. In return, the server responds with status codes and message payloads. The status code is important and tells the client how to interpret the server response. The HTTP spec defines certain number ranges for specific types of responses.
+
+1xx: Informational Messages
+
+2xx: Successful
+
+3xx: Redirection
+
+4xx: Client Error
+
+5xx: Server Error
