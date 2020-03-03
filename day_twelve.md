@@ -1,6 +1,10 @@
 ### Tuesday 3rd March ###
 
-## Challenges
+## Process Modelling
+
+Sequence diagram 
+
+## Battle Challenge
 
 ### The Web  
 
@@ -13,11 +17,16 @@ Challenge - setup using httpie
 
 Usually, clients and servers talk to each other using the HyperText Transfer Protocol. A client makes a request to a server and gets back a response. It is called a "protocol" because it has a defined structure for requests and responses.
 
+#### URLs
+
+At the heart of web communications is the request message, which are sent via Uniform Resource Locators (URLs). 
+
+![URL](https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-url-structure.png "URL")
+
 ### HTTP: Parameters
 
 Within HTTP, we call data sent from a client to a server a parameter. Just like Ruby's hashes, parameters come as key-value pairs and a request can contain multiple parameters. One way of sending a parameter to a server is to pass it in the query string. The query string is a string that can be appended to an URL. It has a special set of formatting conventions.
 
-## Process Modelling
 
-Sequence diagram 
+
 
