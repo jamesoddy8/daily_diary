@@ -65,3 +65,56 @@ With URLs and verbs, the client can initiate requests to the server. In return, 
 4xx: Client Error
 
 5xx: Server Error
+
+### POST / redirect /GET pattern
+
+#### Session
+
+> A ```session``` is a short-term information store that lives on the server. It's very small, but it allows the server to store basic pieces of information, like the names of the current user, across multiple requests. In Sinatra, ```session``` is a Hash, and you can set values for its keys. ```session``` is most often used to store detauls of a logged in user. 
+#### Redirect
+
+>```redirect '/route'``` will issue an 'internal GET request' within the server. Check your sever logs when you submit the form: you will see a POST request with the form params, followed by a GET request (the redirect). That internal GET request will activate the ```play.erb``` view. 
+
+## Params 
+
+### Overview
+
+In the context of HTTP requests, parameters provide a way for information to be passed from a user to your application Params are used to allow interactivity on a website, for example by allowing form data to be sent.
+
+Params are passed in the form of a hash, a series of key-value pairs. 
+
+There are several types of parameters that you can use to submit information to your app: 
+
+#### Form Params 
+
+Form params are parameters that are passed from a web page to an application via a form submission. Consider the following code: 
+
+```ruby
+server.rb
+
+  post ‘/form’ do
+    @username = params[:username]
+    puts params
+    erb :form
+  end
+ 
+```
+``` ruby
+form.erb
+  <form name="input" action=“/form” method=“post”>
+  username: <input type=“text” name=“username”>
+  password: <input type=“password” name=“password”>
+
+  <input type=“submit” value=“Submit”>
+  </form>
+  
+```
+In form.erb you can see the first <form> tag contains 3 attributes: 
+  
+  - ```name``` - This is the name of the form
+  - ```action``` - This is he path to which the form will be sent
+  - ```method``` - This is the tyoe of HTTP request via which the form will be sent
+  
+  
+
+
