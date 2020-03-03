@@ -19,9 +19,15 @@ Usually, clients and servers talk to each other using the HyperText Transfer Pro
 
 #### URLs
 
-At the heart of web communications is the request message, which are sent via Uniform Resource Locators (URLs). 
+At the heart of web communications is the request message, which are sent via Uniform Resource Locators (URLs).
 
-![URL](https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-url-structure.png "URL")
+```http://www.domain.com:1234/path/to/resource?a=b&x=y```
+
+http = protocol 
+www.domain.com = host 
+1234 = port 
+path/to/resource = resource path 
+?a=b%x=y = query 
 
 ### HTTP: Parameters
 
