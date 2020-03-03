@@ -58,5 +58,28 @@ HTTP STATUS codes, such as 404 not found
 
 Developer tools safari/chrome
 
+### Sinatra ###
 
+#### Introducing ```params```
 
+``` rub
+get '/random-cat' do
+  @name = ["Amigo", "Oscar", "Viking"].sample
+  erb:index
+end
+
+get '/named-cat' do
+  @name = params[:name]
+  erb:index
+end
+```
+By using params you enter the parameters into the url so http://localhost:9393/named-cat?name=fuzzy (name = fuzzy)
+
+### Process ###
+
+> Observation
+planning was clear
+testing process for rspec was well explained
+commit stages timed correctly 
+thought process for next test/TDD in general was fluid
+Refactoring was done at the right time
