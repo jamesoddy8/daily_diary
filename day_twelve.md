@@ -5,9 +5,6 @@
 - Mocks are objects that have a similar interface as something else
 - Stubs are fake methods and return a specific answer
 
-
-
-
 ## Process Modelling ##
 
 Sequence diagram
@@ -115,6 +112,8 @@ In form.erb you can see the first <form> tag contains 3 attributes:
   - ```action``` - This is he path to which the form will be sent
   - ```method``` - This is the tyoe of HTTP request via which the form will be sent
   
-  
+When the user fills in their username and password, a POST request is sent to the ```/form``` path with a params hash. The server identifies this request and defines an instance variable ```@username``` that is available to the erb. The params hash identifies with the input's name, in this case the name="username". It then prints the params to the console and serves a new template ```prams.erb``` to the user. 
+
+
 
 
