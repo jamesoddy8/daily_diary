@@ -1,4 +1,4 @@
-### Tuesday 3rd March ###
+# Tuesday 3rd March 
 
 ## Mocks, Stubs & Expectations in Ruby ###
 
