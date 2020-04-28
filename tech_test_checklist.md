@@ -37,6 +37,16 @@ git remote add origin git@github.com:jamesoddy8/bank_tech_test.git
 git push -u origin master
 ```
 
+### Plan
+
+Use diagrams or input/output tables, for example: 
+
+input | output |
+|:--:|:--:|
+|irb -r 'echo.rb'|Say something: |
+|"Hello"|"2020-04-22/
+
+
 ### Writing the First Spec
 
 First create a ```spec``` directory 
